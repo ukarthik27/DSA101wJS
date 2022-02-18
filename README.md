@@ -14,7 +14,6 @@ Run time and Space complexity
     -> Insertion sort, Merge sort, quick sort
 
 ## Abstract Data type and Data Structures
-    -> Graph representations
     -> Stack, linkedlist, queue, BST
     -> Tree traversal - inorder,preorder,postorder
     -> Priority Queue 
