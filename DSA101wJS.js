@@ -207,14 +207,14 @@ function preOrder(p) {
   // root,left,right
   if (!p) return;
   console.log(p.val);
-  inOrder(p.left);
-  inOrder(p.right);
+  preOrder(p.left);
+  preOrder(p.right);
 }
 function postOrder(p) {
   // left,right,root
   if (!p) return;
-  inOrder(p.left);
-  inOrder(p.right);
+  postOrder(p.left);
+  postOrder(p.right);
   console.log(p.val);
 }
 
